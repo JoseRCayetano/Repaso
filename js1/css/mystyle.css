@@ -1,0 +1,9 @@
+.wrap {
+	width: 50%;
+	margin: 0 auto;
+}
+.list {
+	display:inline-block;
+	width: 48%;
+	background-color: red;
+}

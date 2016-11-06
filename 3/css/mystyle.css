@@ -1,0 +1,45 @@
+/* COLORES */
+header, main, footer, .wrapper {
+ border: 1px solid black;
+}
+.wrapper {
+	width: 60%;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+header{
+	background-color: red;
+	display:flex;
+	flex-flow: row;
+	justify-content: space-between;
+	padding: 0 20px;
+	
+}
+main {
+	background-color: orange;
+	display:flex;
+	flex-flow: column no-wrap;
+	justify-content: space-between;
+	align-items: stretch;
+
+}
+main aside{
+	background-color: green;
+}
+main section {
+
+}
+footer{
+	background-color: purple;
+}
+
+.item-1{
+	flex: 1 auto;
+}
+.item-2{
+	flex:2  auto;
+}
+.item-3{
+	flex: 3 auto;
+}

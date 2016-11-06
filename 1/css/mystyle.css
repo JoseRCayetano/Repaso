@@ -1,0 +1,44 @@
+nav ul{
+	margin: 0 auto;
+	width: 50%;
+	display:table;
+	
+}
+nav ul li {
+	display:table-cell;
+	width: auto;
+	text-align:center;
+	border: 1px solid black;
+}
+nav {
+	height: 10%;
+}
+#container {
+	height: 80%;
+}
+
+#notices{
+	width: 20%;
+	float:left;
+	
+}
+main {
+	display:inline-block;
+	width: 60%;
+
+}
+#links {
+	width:20%;
+	float:right;
+	
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+

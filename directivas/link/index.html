@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="miapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Directivas</title>
+</head>
+<body>
+	<div ng-controller="miContoller">
+		<input type="text" ng-model="color" placeholder="Enter a color" />
+		<mi-directiva2 col="{{color}}"></mi-directiva2>
+		<say-hello sayHelloIsolated="sayHello()"></say-hello>
+	</div>
+	
+
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

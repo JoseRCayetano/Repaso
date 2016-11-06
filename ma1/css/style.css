@@ -1,0 +1,39 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+.container {
+	background-color: green;
+	border: 1px solid black;
+	overflow: hidden;
+	height: 200px;
+	padding-top: 50px;
+	
+	
+}
+
+.ele1 {
+	float:left;
+	background-color: orange;
+	border:1px solid black;
+	height: 100px;
+	width: 100px;
+
+}
+.contenedorExterior{
+	display: table;
+	background-color: yellow;
+	border:1px solid black;
+	height: 300px;
+	
+}
+.contenedorInterior {
+	display:table-cell;
+	vertical-align: middle;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	background-color: red;
+}
+.elemento {
+
+}

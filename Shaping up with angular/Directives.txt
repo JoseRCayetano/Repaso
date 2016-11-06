@@ -1,0 +1,25 @@
+ng-src se usa porque si la expresion es usada en src, html intenta cargar el src antes de que la expresion sea evaluada
+
+ng-src={{product.images[0]}}
+
+
+ng-class="{active:tab ===3 }"
+
+ng-model
+
+
+
+<fieldset class="form-group">
+                <select ng-model="review.star" class="form-control" ng-options="stars for stars in [5,4,3,2,1]"  title="Stars">
+                  <option value="">Rate the Product</option>
+                </select>
+              </fieldset>
+
+
+ng-submit --> permite llamar función cuando el formulario es enviado
+
+
+
+
+Usar E (element) directivas para UI widgets
+Usar A (Atribute) directiva para mixins, añadir comportamiento al código html como tool tip

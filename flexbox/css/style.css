@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	padding: 0;
+	margin:0;
+}
+
+.container {
+	background-color: green;
+	padding-top:20px;
+	border:1px solid black;
+}
+
+.cuadro {
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	border:1px solid black;
+}
+.flex {
+	display:flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+.flex2 {
+	display:flex;
+	flex-flow: row nowrap;
+	
+
+}
+.alg-item1{
+	flex: 0 auto;
+}
+.alg-item1{
+
+}
+.item-1{
+	order:1;
+}
+.item-2{
+	order:3;
+}
+
+.logo {
+	height: 100px;
+	width: 320px;
+	background-color: purple;
+}
+
+.nav {
+	background-color: yellow;
+}
+.nav ul {
+	list-style: none;
+}
+.nav a {
+  margin: 10px;
+  border-radius: 5px;
+  background: #60B99A;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.aside {
+	background-color: red;
+	padding: 20px;
+
+}
+.article {
+	background-color: purple;
+	padding: 20px;
+}
+
+footer {
+	background-color: orange;
+	height: 100px;
+	position: relative;
+
+	
+}

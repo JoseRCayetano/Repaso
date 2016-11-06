@@ -1,0 +1,22 @@
+<header id="top-menu" ng-controller="menuController">
+	<figure >
+		<img src="img/logo.svg" alt="logo" class="logo"/>
+	</figure>
+	<nav>
+		<ul>
+  <li><a ng-class="{active: isActive('/')}" href="#home">Login</a></li>
+  <li><a href="#news" ng-class="{active: isActive('/home')}">Home</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="dropdown">
+  	<a href="#about" class="dropbtn">Dropdown</a>
+  	<div class="dropdown-content">
+  		<a href="#">Link 1</a>
+  		<a href="#">Link 2</a>
+  		<a href="#">Link 3</a>
+  	</div>
+  </li>
+</ul>
+
+	</nav>
+</header>
+<div class="spacer"></div>

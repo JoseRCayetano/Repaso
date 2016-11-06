@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+	<titulo>Introducción a HTML</titulo>
+	<unidad titulo="Unidad 1">
+		<lecciones>
+			<leccion titulo="Titulo 1" />
+			<leccion titulo="Titulo 2"></leccion>
+			<leccion titulo="Titulo 3"></leccion>
+		</lecciones>
+	</unidad>
+</curso>

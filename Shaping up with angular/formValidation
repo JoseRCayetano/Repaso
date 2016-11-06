@@ -1,0 +1,10 @@
+1.- Desactivate html validation novalidate inside form 
+2.- use required
+3.- use name
+
+
+clases ng-dirty ng-invalid ng-valid
+
+Angular puede validar emai. url y numero con min y max
+
+ng-include ="'product-title.html'"

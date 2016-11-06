@@ -1,0 +1,12 @@
+[
+	{
+		"nombre" : "Israel",
+		"profesion" : "programador",
+		"edad" : "32"
+	},
+	{
+		"nombre" : "Juan",
+		"profesion" : "diseñador",
+		"edad" : "40"
+	}
+]
